@@ -1,0 +1,8 @@
+:root{
+    --headerHeight: 4rem;
+    --sideNavOpenWidth: 250px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}

@@ -1,0 +1,6 @@
+@TypingTest.Server_HostAddress = http://localhost:5297
+
+GET {{TypingTest.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
