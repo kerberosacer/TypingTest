@@ -1,5 +1,5 @@
 <header>
-  <div class="menu-button">
+  <div class="menu-button" (click)="menuButtonClicked()">
     <i class='bx bx-menu'></i>
   </div>
   <div class="brand-name">
@@ -8,7 +8,8 @@
   <div class="btn-group">
     <button class="btn btn-outline-light btn-lg">Login</button>
     <button class="btn btn-outline-light btn-lg">Register</button>
-    <button class="btn btn-outline-light btn-lg">Profile</button>
+    <button class="btn btn-outline-light btn-lg"
+            routerLink="/profile">Profile</button>
     <button class="btn btn-outline-light btn-lg">Log out</button>
   </div>
 </header>

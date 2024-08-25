@@ -7,13 +7,25 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { SimpleTestComponent } from './TypingTest/simple-test/simple-test.component';
+import { AdvancedTestComponent } from './TypingTest/advanced-test/advanced-test.component';
+import { StatisticsComponent } from './TypingTest/statistics/statistics.component';
+import { AboutUsComponent } from './TypingTest/about-us/about-us.component';
+import { ProfileComponent } from './TypingTest/profile/profile.component';
+import { PageNotFoundComponent } from './TypingTest/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SideNavComponent,
-    FooterComponent
+    FooterComponent,
+    SimpleTestComponent,
+    AdvancedTestComponent,
+    StatisticsComponent,
+    AboutUsComponent,
+    ProfileComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

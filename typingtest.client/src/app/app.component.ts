@@ -21,5 +21,6 @@ export class AppComponent implements OnInit {
   }
 
 
-  title = 'typingtest.client';
+  title = 'TypingTest';
+  sideNavStatus: boolean = true;
 }

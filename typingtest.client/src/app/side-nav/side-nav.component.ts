@@ -18,14 +18,6 @@ export class SideNavComponent implements OnInit {
         path: 'advanced',
       },
       {
-        name: 'achievements',
-        path: 'achievements',
-      },
-      {
-        name: 'your rank',
-        path: 'rank',
-      },
-      {
         name: 'statistics',
         path: 'statistics',
       },
