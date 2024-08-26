@@ -13,6 +13,8 @@ import { StatisticsComponent } from './TypingTest/statistics/statistics.componen
 import { AboutUsComponent } from './TypingTest/about-us/about-us.component';
 import { ProfileComponent } from './TypingTest/profile/profile.component';
 import { PageNotFoundComponent } from './TypingTest/page-not-found/page-not-found.component';
+import { TestDurationComponent } from './TypingTest/test-duration/test-duration.component';
+import { TestBoxComponent } from './TypingTest/test-box/test-box.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { PageNotFoundComponent } from './TypingTest/page-not-found/page-not-foun
     StatisticsComponent,
     AboutUsComponent,
     ProfileComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TestDurationComponent,
+    TestBoxComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,
