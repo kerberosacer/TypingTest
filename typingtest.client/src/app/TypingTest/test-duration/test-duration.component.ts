@@ -26,7 +26,7 @@ export class TestDurationComponent implements OnInit {
       },
       {
         label: '3 Min',
-        value: '1',
+        value: '3',
         name: 'test-duration',
         checked: 'checked',
         id: 'three',

@@ -15,6 +15,8 @@ import { ProfileComponent } from './TypingTest/profile/profile.component';
 import { PageNotFoundComponent } from './TypingTest/page-not-found/page-not-found.component';
 import { TestDurationComponent } from './TypingTest/test-duration/test-duration.component';
 import { TestBoxComponent } from './TypingTest/test-box/test-box.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { TimePipe } from './pipes/time.pipe';
 
 @NgModule({
   declarations: [
@@ -29,11 +31,12 @@ import { TestBoxComponent } from './TypingTest/test-box/test-box.component';
     ProfileComponent,
     PageNotFoundComponent,
     TestDurationComponent,
-    TestBoxComponent
+    TestBoxComponent,
+    TimePipe
   ],
   imports: [
     BrowserModule, HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
